@@ -15,14 +15,35 @@ namespace Election2018.Controllers
 
 		public ActionResult About()
 		{
-			ViewBag.Message = "Your application description page.";
+			ViewBag.Message = "Your description page.";
 
 			return View();
 		}
 
 		public ActionResult Contact()
 		{
-			ViewBag.Message = "Your contact page.";
+			ViewBag.Message = "Contact Me content.";
+
+			return View();
+		}
+
+		public ActionResult Donate()
+		{
+			ViewBag.Message = "Donate Me content.";
+
+			return View();
+		}
+
+		public ActionResult Events()
+		{
+			ViewBag.Message = "Events Me content.";
+
+			return View();
+		}
+
+		public ActionResult Issues()
+		{
+			ViewBag.Message = "Issues Me content.";
 
 			return View();
 		}
